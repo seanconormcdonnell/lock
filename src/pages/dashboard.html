@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <script src="../main.js"></script>
+</head>
+<body class="light-body">
+
+    <div class="page-container">
+        <div class="dashboard-title-container">
+            <p class="dashboard-title">Dashboard</p>
+        </div>
+
+        <div class="percent-container">
+            <div class="percent-circle pc1" data-percent="75">
+                <svg>
+                    <use class="percent-circle-inner" xlink:href="#percent-circle-svg"></use>
+                </svg>
+                <div class="pc-label">
+                    <p>
+                        <!--This is in a span with an ID so it can later be manipulated by JS-->
+                        <span id="pc-label-value">75%</span>
+                        <br/>Secure
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="diagram-container">
+            <div class="diagram-left">
+                <svg width="200" height="160">
+                    <circle cx="50" cy="70" stroke="firebrick" stroke-width="0" fill="coral" r="30" class="green-circle"></circle>
+                    <circle cx="70" cy="95" stroke="firebrick" stroke-width="0" fill="coral" r="25"class="blue-circle"></circle>
+                    <circle cx="100" cy="50" stroke="firebrick" stroke-width="0" fill="coral" r="50" class="purple-circle"></circle>
+                </svg> 
+            </div>
+            <div class="diagram-right">
+                <ul class="diagram-list">
+                    <li class="green"><span class="green-dot">&#8226;</span> Never Touched(5)</li>
+                    <li class="blue"><span class="blue-dot">&#8226;</span> Unlocked(4)</li>
+                    <li class="purple"><span class="purple-dot">&#8226;</span> Locked(15)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="dashboard-title-container">
+                <p class="dashboard-title">Items To Do</p>
+        </div>
+
+        <!--I haven't used regular CSS in a while, after this I will never take SASS for granted-->
+        <div class="to-do-cards">
+            <ul class="to-do-list">
+                <li class="to-do-item">
+                    <p class="to-do-title">Personal Info</p>
+                    <p class="to-do-desc">Used for your lock</p>
+                </li>
+             </ul>   
+        </div>
+
+    </div>
+</body>
+
+<svg class="hidden">
+    <circle id="percent-circle-svg" cx="50%" cy="50%" r="50%" stroke-alignment="inner"></circle>
+</svg>
+</html>

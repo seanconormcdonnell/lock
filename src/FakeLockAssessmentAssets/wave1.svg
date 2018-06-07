@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="95px" viewBox="0 0 320 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="iPhone-SE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.201709692">
+        <g id="Submit-Info" transform="translate(0.000000, -697.000000)" fill="#45B1FD">
+            <path d="M0,697 L320,697 L320,813.477223 C292.826823,804.362573 262.080078,799.805249 227.759766,799.805249 C176.279297,799.805249 140.423828,823 83.0859375,823 C44.8606771,823 17.1653646,819.825741 0,813.477223 L0,697 Z" id="Rectangle-Copy" transform="translate(160.000000, 760.000000) scale(-1, -1) translate(-160.000000, -760.000000) "></path>
+        </g>
+    </g>
+</svg>

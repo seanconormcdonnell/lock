@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="22px" viewBox="0 0 19 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>profilePic</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Overlay/header/myInfo" transform="translate(-20.000000, -44.000000)" fill="#F7F9FC">
+            <g id="Group" transform="translate(0.000000, -3.000000)">
+                <path d="M29.5,58.3793103 C34.7467051,58.3793103 39,62.6326052 39,67.8793103 L39,69 L20,69 L20,67.8793103 C20,62.6326052 24.2532949,58.3793103 29.5,58.3793103 Z M29.425,47 L29.575,47 C32.6816017,47 35.2,49.5183983 35.2,52.625 L35.2,52.7543103 C35.2,55.8609121 32.6816017,58.3793103 29.575,58.3793103 L29.425,58.3793103 C26.3183983,58.3793103 23.8,55.8609121 23.8,52.7543103 L23.8,52.625 C23.8,49.5183983 26.3183983,47 29.425,47 Z" id="profilePic"></path>
+            </g>
+        </g>
+    </g>
+</svg>
